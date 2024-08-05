@@ -1,0 +1,176 @@
+/* Estilos personalizados */
+
+/* Sección Principal */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(165, 120, 120);
+    text-shadow: 2px 2px 4px black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+}
+
+/* Sección de Características */
+section {
+    padding: 60px 0;
+}
+
+.features {
+    background: #af8383;
+    padding: 60px 0;
+}
+
+.features .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.features i {
+    color: #b17777;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.features h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.features p {
+    font-size: 1rem;
+}
+
+.features img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Sección de Beneficios */
+.benefits {
+    background: #f0e4e4;
+    padding: 60px 0;
+}
+
+.benefits .col-md-3 {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.benefits i {
+    color: #b17777;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.benefits h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.benefits p {
+    font-size: 1rem;
+}
+
+.benefits a {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.benefits a:hover {
+    color: #0056b3;
+}
+
+/* Sección de Testimonios */
+.testimonials {
+    background: #a37171;
+    padding: 60px 0;
+}
+
+.testimonials .testimonial {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonials .testimonial img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.testimonials .testimonial p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Sección de Registro */
+.registration {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.registration form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registration input {
+    margin-bottom: 20px;
+}
+
+/* Pie de Página */
+footer {
+    background: #a06464;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.bi {
+    font-size: 2rem;
+}
